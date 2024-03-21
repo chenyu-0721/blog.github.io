@@ -302,25 +302,16 @@ h4 {
   display: inline-block;
 }
 
-.operations__tab--1 {
-  background-color: var(--color-secondary);
-}
-
-.operations__tab--1:hover {
-  background-color: var(--color-secondary-darker);
-}
-
 .operations__tab--3 {
-  background-color: var(--color-tertiary);
   margin: 0;
 }
 
-.operations__tab--3:hover {
-  background-color: var(--color-tertiary-darker);
+.operations__tab--active {
+  background-color: orange;
 }
 
-.operations__tab--active {
-  transform: translateY(-80%);
+.operations__tab--active2 {
+  transform: translateY(-30%);
 }
 
 .operations__content {
